@@ -11,9 +11,6 @@ models:
           - unique
           - not_null
       - name: first_name
-        description: The user who performed the event
-        tests:
-          - not_null
       - name: last_name
       - name: email
       - name: phone_number
